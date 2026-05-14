@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:7420:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    volumes:
+      - quiz_data:/app/data
+    environment:
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
+    restart: unless-stopped
+
+volumes:
+  quiz_data:
