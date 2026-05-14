@@ -1,7 +1,7 @@
 // src/components/questions/InputQuestion.tsx
 
 import React, { useState } from 'react';
-import { InputQuestions } from '../../data/qestions';
+import { InputQuestions } from '../../data/questions';
 
 // Input Question Component
 export const InputQuestion = ({ question, onAnswer }: { question: any; onAnswer: (answer: string) => void }) => {
