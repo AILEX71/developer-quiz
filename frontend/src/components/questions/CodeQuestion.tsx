@@ -1,7 +1,7 @@
 // src/components/quiz/CodeQuestion.tsx
 
 import React, { useState } from 'react';
-import { CodeQuestions } from '../../data/questions'
+import { CodeQuestions } from '../../data/'
 
 // Code Question Component
 export const CodeQuestion = ({ question, onAnswer }: { question: any; onAnswer: (answer: string) => void }) => {
