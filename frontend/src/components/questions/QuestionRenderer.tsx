@@ -1,6 +1,6 @@
 // src/components/questions/QuestionRenderer.tsx
 import React from 'react';
-import { QuizQuestion } from '../../data/questions';
+import { QuizQuestion } from '../../data/';
 import { MultipleChoiceQuestion } from './MultipleChoiceQuestion';
 import { CodeQuestion } from './CodeQuestion';
 import { TrueFalseQuestion } from './TrueFalseQuestion';
