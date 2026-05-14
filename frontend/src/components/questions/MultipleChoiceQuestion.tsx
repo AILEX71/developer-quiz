@@ -1,7 +1,7 @@
 // src/components/questions/MultipleChoiceQuestion.tsx
 
 import React, { useState } from 'react';
-import { McQuestion } from '../../data/';
+import { McQuestion } from '../../data/questions';
 
 // Multiple Choice Component
 export const MultipleChoiceQuestion = ({ question, onAnswer }: { question: any; onAnswer: (answer: any) => void }) => {
